@@ -9,7 +9,7 @@
     align-items: flex-start;
     justify-content: space-between;
     color: white;
-    font-size: .85rem;
+    font-size: 0.85rem;
     font-weight: 500;
     padding: 4rem 2rem;
 }
@@ -36,7 +36,7 @@
 
 .link_list li:first-child {
     color: inherit;
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
@@ -105,7 +105,6 @@
 
     .footer_content {
         width: 80%;
-        /*max-width: 90%;*/
         margin: auto;
         padding: 4rem 0;
     }

@@ -64,8 +64,8 @@ const ShortenForm: FunctionComponent = () => {
             localStorage.setItem("shortenArray", JSON.stringify(temp_Array));
             setWaiting(false);
             setValue('');
-        } catch (error) {
-            setErrorMessage(`Error: ${error.message}`);
+        } catch (error: any) {
+            setErrorMessage(`Error: ${error?.message}`);
         }
     }
 

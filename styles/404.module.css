@@ -10,7 +10,7 @@
     display: flex;
     padding: 1.6rem 0;
     color: #b7b7b7;
-    opacity: .75;
+    opacity: 0.75;
 }
 
 .errorCode > h1 {
@@ -22,9 +22,9 @@
 }
 
 .errorCode > h1:nth-of-type(2) {
-    animation: 1.2s linear null_animation infinite;
+    animation: null_animation 1.2s infinite;
     animation-iteration-count: 4;
-    color: #0069b7;
+    color: var(--primary-cyan);
 }
 
 @keyframes null_animation {
@@ -73,7 +73,7 @@
 .errLink {
     display: flex;
     margin: 1rem;
-    color: #0069b7;
+    color: var(--primary-cyan);
     text-decoration: none;
     cursor: pointer;
 }

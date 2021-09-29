@@ -1,5 +1,5 @@
 import { NextPage } from "next";
-import { ReactNode, useEffect, useState } from "react";
+import { ReactNode, useEffect } from "react";
 import styles from "@/styles/Layout.module.css";
 import Seo from "~/seo/Seo";
 import { MetaTags } from "~/data-types/MetaTags";
