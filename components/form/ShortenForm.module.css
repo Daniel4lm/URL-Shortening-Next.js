@@ -1,0 +1,174 @@
+.form_Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.shorten_Form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    margin-top: -6rem;
+    padding: 2.5rem 3.5rem;
+    background-image: url("/images/bg-shorten-desktop.svg");
+    background-position: 100% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--primary-dark-violet);
+    border-radius: 0.4rem;
+    transition: all 0.3s ease-in;
+}
+
+.shorten_Input {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    flex: 1;
+    border: 3px solid transparent;
+    border-radius: 0.4rem;
+    outline: none;
+}
+
+.shorten_Input::placeholder {
+    color: var(--neutral-grayish-violet);
+}
+
+.shorten_Input.error {
+    border: 3px solid var(--secondary-red);
+    color: var(--secondary-red);
+}
+
+.shorten_Input.error::placeholder {
+    color: var(--secondary-red);
+}
+
+.error_Msg {
+    position: absolute;
+    display: none;
+    left: 3.5rem;
+    bottom: 0.8rem;
+    font-size: 0.8rem;
+    color: var(--secondary-red);
+    font-style: italic;
+}
+
+.error_Msg.show {
+    display: block;
+}
+
+.shorten_Button {
+    background-color: var(--primary-cyan);
+    color: white ;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 0.4rem;
+    padding: 0.8rem 1.5rem;
+    outline: none;
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.shorten_Button:hover {
+    background-color: var(--color-hover);
+}
+
+.shortenList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.shortenList li {
+    background-color: white;
+    border-radius: 0.2rem;
+    padding: 0 1rem;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.short_Part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.url_Orig {
+    color: var(--neutral-very-dark-blue);
+    font-weight: 500;
+}
+
+.url_Short {
+    color: var(--primary-cyan);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 750px) {
+
+    .form_Wrapper {
+        width: 90%;
+    }
+
+    .shorten_Form {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1.5rem;
+        margin-top: -6.8rem;
+    }
+
+    .shorten_Input {
+        width: 100%;
+    }
+
+    .shorten_Button {
+        width: 100%;
+    }
+
+    .error_Msg {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        margin-bottom: 0.5rem;    
+    }
+
+    .shortenList li {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    .short_Part {
+        width: 100%;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .url_Orig {
+        width: 100%;
+        margin: 0;
+        border-bottom: 1px solid var(--statictic-gray);
+        padding: 1rem;
+    }
+    
+    .url_Short {
+        margin: 0;        
+    }
+
+    .short_Part a {
+        text-align: center;
+        width: 100%;
+    }
+
+}

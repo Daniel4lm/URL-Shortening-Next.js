@@ -1,0 +1,77 @@
+
+:root {
+  --primary-cyan: hsl(180, 66%, 49%);
+  --primary-dark-violet: hsl(257, 27%, 26%);
+  --secondary-red: hsl(0, 87%, 67%);
+  --neutral-gray: hsl(0, 0%, 75%);
+  --statictic-gray: hsl(230, 25%, 95%);
+  --neutral-grayish-violet: hsl(257, 7%, 63%);
+  --neutral-very-dark-blue: hsl(255, 11%, 22%);
+  --neutral-very-dark-violet: hsl(260, 8%, 14%);
+  --color-hover: #9ce3e2;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-size: 1.125rem;
+}
+
+a {
+  /*color: inherit;*/
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+[class*="__button"] {
+  background-color: var(--primary-cyan);
+  color: white ;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 2rem;
+  padding: 0.8rem 2rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in;
+}
+
+[class*="__button"]:hover {
+  background-color: var(--color-hover);
+}
+
+[class*="__button.round"] {
+  border-radius: 0.2rem;
+}
+
+[class*="__button.round.thin"] {
+  padding: 0.4rem 1.5rem;
+  font-size: 0.8rem;
+}
+
+[class*="__button.round.thin.copied"] {
+  padding: 0.4rem 1rem;
+  background-color: var(--primary-dark-violet);
+}
+
+[class*="__button.round.thin.copied"]:hover {
+  background-color: hsla(258, 27%, 26%, 0.8);
+}
+
+.attribution { 
+  font-size: 11px; text-align: center;
+ }
+
+.attribution a {
+   color: hsl(228, 45%, 44%); 
+}

@@ -1,0 +1,38 @@
+.hamb_Btn {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.hamb_Btn:focus {
+    outline: none;
+}
+
+.hamb_Line {
+    width: 100%;
+    height: 3px;
+    transform-origin: 1px;
+    background-color: hsl(257, 7%, 63%);
+    transition: all 0.3s linear;
+}
+
+.hamb_Btn.toggle .hamb_Line:first-child {
+    transform: translateX(10%) rotate(45deg);
+}
+.hamb_Btn.toggle .hamb_Line:nth-child(2) {
+    opacity: 0;
+    width: 0;
+}
+.hamb_Btn.toggle .hamb_Line:nth-child(3) {
+    transform: translateX(10%) rotate(-45deg);
+}

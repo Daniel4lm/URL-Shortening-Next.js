@@ -1,0 +1,89 @@
+.nfContainer {
+    padding: 10vw 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.errorCode {
+    display: flex;
+    padding: 1.6rem 0;
+    color: #b7b7b7;
+    opacity: .75;
+}
+
+.errorCode > h1 {
+    margin: 0;
+    font-size: 12vw;
+    line-height: 1em;
+    letter-spacing: -5px;
+    font-weight: 500;
+}
+
+.errorCode > h1:nth-of-type(2) {
+    animation: 1.2s linear null_animation infinite;
+    animation-iteration-count: 4;
+    color: #0069b7;
+}
+
+@keyframes null_animation {
+    0% {
+        transform: scale(1.1);
+        color: #777777;
+    }
+    50% {
+        transform: scale(0.8);
+        color: #b7b7b7;
+    }
+    100% {
+       transform: scale(1.1);
+        color: #777777;
+    }
+}
+
+@keyframes animate {
+  0% {
+      transform: scale(1.2);
+  }
+  50% {
+      transform: scale(0.8);
+  }
+  100% {
+      transform: scale(1.2);
+  }
+}
+
+.errDescription {
+    margin: 0 2rem;
+    color: #777777;
+    font-size: 2rem;
+    line-height: 1.3em;
+    font-weight: 400;
+}
+
+.errMessage {
+    margin: 0.5rem 2rem;
+    color: #777777;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    font-weight: 200;
+}
+
+.errLink {
+    display: flex;
+    margin: 1rem;
+    color: #0069b7;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.errLink:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .errDescription {
+        font-size: 1.5rem;
+    }  
+}

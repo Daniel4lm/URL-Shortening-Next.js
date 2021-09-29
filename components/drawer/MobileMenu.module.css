@@ -1,0 +1,88 @@
+.mob_Menu {
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+    right: 2rem;
+    padding: 2rem;
+    background-color: var(--primary-dark-violet);
+    border-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+}
+
+.mob_Menu hr {
+    width: 100%;
+    height: .0625rem;
+    background-color: var(--neutral-gray);
+    opacity: .15;
+    border: none;
+}
+
+.mob_Routes,
+.mob_Admin {
+    margin: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mob_Routes li,
+.mob_Admin li {
+    padding: 0.5rem 0;
+    text-align: center;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+.mob_Routes li a,
+.mob_Admin li a {
+    font-size: .95rem;
+    font-weight: 700;
+    color: white;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+.mob_Admin li:last-child {
+    margin: 0.5rem 0;
+    border-radius: 2rem;
+    background-color: var(--primary-cyan);
+    cursor: pointer;
+}
+
+.mob_Admin li:last-child a {
+    padding: 0.4rem 4rem;
+}
+
+.mob_Admin li:last-child:hover {
+    background-color: var(--color-hover);
+}
+
+@media screen and (max-width: 400px) {
+    .mob_Menu {
+        left: 1rem;
+        right: 1rem;
+    }
+    .mob_Admin li:last-child {
+        width: 100%;
+    }
+
+    .mob_Routes,
+    .mob_Admin {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mob_Routes,
+    .mob_Admin {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .mob_Menu hr {
+        width: 12rem;
+    }
+}
