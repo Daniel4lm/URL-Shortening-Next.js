@@ -32,9 +32,11 @@ Users should be able to:
 ### Screenshot
 
 - Desktop view
+
 ![image](https://user-images.githubusercontent.com/1280747/135527165-71a21659-f55e-4a0a-aea3-4d73efdbc4c4.png)
 
 - Mobile view
+
 ![image](https://user-images.githubusercontent.com/1280747/135527269-c621cb16-58d0-4759-b77c-97b13592f8ae.png)
 
 ### Links
