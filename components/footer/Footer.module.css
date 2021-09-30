@@ -43,7 +43,7 @@
 
 .link_list li a{
     color: hsl(0, 0%, 75%);
-    transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in-out;
 }
 
 .link_list li a:hover {
@@ -59,7 +59,7 @@
 
 .soc_icon {
     color: white;
-    transition: color 0.3s ease-in;
+    transition: color 0.3s ease-in-out;
 }
 
 .soc_icon:hover {

@@ -21,7 +21,7 @@
     background-repeat: no-repeat;
     background-color: var(--primary-dark-violet);
     border-radius: 0.4rem;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
 }
 
 .shorten_Input {
@@ -71,7 +71,7 @@
     outline: none;
     border: 3px solid transparent;
     cursor: pointer;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
 }
 
 .shorten_Button:hover {
@@ -125,6 +125,8 @@
         padding: 1.5rem;
         margin-top: -6.8rem;
         background-image: url("/url-shortening-app/images/bg-shorten-mobile.svg");
+        background-position: 100% -40px;
+        background-size: contain;
     }
 
     .shorten_Input {
