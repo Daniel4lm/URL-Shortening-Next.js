@@ -118,7 +118,7 @@
   width: 100%;
   flex: 1;
   padding: 3rem 1rem;
-  background-image: url("/url-shortening-app//images/bg-boost-desktop.svg");
+  background-image: url("/images/bg-boost-desktop.svg");
   background-position: 100% 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -146,7 +146,7 @@
   }
 
   .boost_Links {
-    background-image: url("/url-shortening-app//images/bg-boost-mobile.svg");
+    background-image: url("/images/bg-boost-mobile.svg");
     background-size: contain;
   }
 
