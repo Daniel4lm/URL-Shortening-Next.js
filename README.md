@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Daniel4lm/url-shortening-app)
-- Live Site URL: [Add live site URL here](https://daniel4lm.github.io/url-shortening-app)
+- Solution URL: [https://github.com/Daniel4lm/url-shortening-app](https://github.com/Daniel4lm/url-shortening-app)
+- Live Site URL: [https://daniel4lm.github.io/url-shortening-app](https://daniel4lm.github.io/url-shortening-app)
 
 ## My process
 
