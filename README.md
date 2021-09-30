@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://user-images.githubusercontent.com/1280747/135526490-691e4a4f-0976-4700-a970-c41e7e242d0a.png)
 
 ### Links
 
