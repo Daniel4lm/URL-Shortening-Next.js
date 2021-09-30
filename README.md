@@ -1,37 +1,70 @@
+# Frontend Mentor - Shortly URL shortening API Challenge solution
 
-# Frontend Mentor - Shortly URL shortening API Challenge
+This is a solution to the [Shortly URL shortening API Challenge challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Table of contents
 
-## Getting Started
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### The challenge
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Users should be able to:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- View the optimal layout for the site depending on their device's screen size
+- Shorten any valid URL
+- See a list of their shortened links, even after refreshing the browser
+- Copy the shortened link to their clipboard in a single click
+- Receive an error message when the `form` is submitted if:
+  - The `input` field is empty or cntain less that 4 characters
+  - The `input` format isn't valid url
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Screenshot
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![](./screenshot.jpg)
 
-## Learn More
+### Links
 
-To learn more about Next.js, take a look at the following resources:
+- Solution URL: [Add solution URL here](https://github.com/Daniel4lm/url-shortening-app)
+- Live Site URL: [Add live site URL here](https://daniel4lm.github.io/url-shortening-app)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## My process
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Built with
 
-## Deploy on Vercel
+- Semantic HTML5 markup
+- CSS modules support for local styling
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Next.js](https://nextjs.org/) - React framework
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### What I learned
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Comming soon ...
+
+### Continued development
+
+The web site contains more pages with coresponding paths(/features, /pricing, /resources, ...). These pages need to be yet implemented in the next days. Instead of, page 404 is shown when user visits these paths. 
+
+### Useful resources
+
+- [Deploy NEXT.JS App to GitHub Pages](https://www.linkedin.com/pulse/deploy-nextjs-app-github-pages-federico-antu%C3%B1a/) - This helped me for deployment my Next.js app to Github pages. This link contains realy helpfull article about deployment next.js app to Github pages.
+- [Deploy Next.js (SSG) to GitHub Pages](https://www.youtube.com/watch?v=yRz8D_oJMWQ&t=81s) - This is an amazing YouTube article from Bruno Antunes which helped me finally to understand how to deploy Next.js (SSG) to GitHub Pages using GitHub Actions. I'd recommend this YouTube channel to anyone.
+
+## Author
+
+- Website - [Daniel Molnar](https://github.com/Daniel4lm)
+- Facebook - [@danijel.molnar.90](https://www.facebook.com/danijel.molnar.90/)
+
