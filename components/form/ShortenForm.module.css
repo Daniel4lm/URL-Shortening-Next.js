@@ -15,7 +15,7 @@
     width: 100%;
     margin-top: -6rem;
     padding: 2.5rem 3.5rem;
-    background-image: url("/images/bg-shorten-desktop.svg");
+    background-image: url("/url-shortening-app/images/bg-shorten-desktop.svg");
     background-position: 100% 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -124,6 +124,7 @@
         align-items: flex-start;
         padding: 1.5rem;
         margin-top: -6.8rem;
+        background-image: url("/url-shortening-app/images/bg-shorten-mobile.svg");
     }
 
     .shorten_Input {

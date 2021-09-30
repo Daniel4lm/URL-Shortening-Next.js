@@ -24,6 +24,8 @@ const siteCards = [
   },
 ]
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const Home: NextPage = () => {
 
   return (
@@ -36,7 +38,7 @@ const Home: NextPage = () => {
           <a className="info__button">Get Started</a>
         </div>
         <div className={styles.working_Img}>
-          <img src="/images/illustration-working.svg" alt="illustration-working" />
+          <img src={`${prefix}/"/images/illustration-working.svg`} alt="illustration-working" />
         </div>
       </section>
 
