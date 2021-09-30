@@ -90,7 +90,7 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
-  padding: 0 1rem;
+  padding: 0;
   margin-bottom: 4rem;
   z-index: 100;
 }
