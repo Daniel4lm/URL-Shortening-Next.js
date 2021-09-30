@@ -38,7 +38,7 @@ const Home: NextPage = () => {
           <a className="info__button">Get Started</a>
         </div>
         <div className={styles.working_Img}>
-          <img src={`${prefix}/"/images/illustration-working.svg`} alt="illustration-working" />
+          <img src={`${prefix}/images/illustration-working.svg`} alt="illustration-working" />
         </div>
       </section>
 
