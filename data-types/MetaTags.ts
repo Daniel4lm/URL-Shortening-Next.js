@@ -21,7 +21,7 @@ export type MetaTags = {
     og_title?: string;
     og_description?: string;
     og_URL?: string;
-    canonical?: string;
+    canonical: string;
     og_image?: string;
     og_site_name?: string;
     twitter_card?: string;

@@ -44,6 +44,9 @@ export default function Seo({ metaTags }: SeoProps) {
                 {metaTags.twitter_site &&
                     <meta name="twitter:image:src" key="twitter_img" content={metaTags.image} />}
 
+                {/* The URL of the canonical tags */}
+                <link rel="canonical" key="canonical" href={metaTags.canonical}/>
+
             </Head>
         </>
     )

@@ -6,6 +6,7 @@ import Layout from '~/layout/Layout';
 import '../styles/globals.css';
 
 export const defaultMetaTags: MetaTags = {
+  canonical: 'https://daniel4lm.github.io/url-shortening-app/',
   author: 'Daniel M',
   description: 'Frontend Mentor | Shortly URL shortening API Challenge',
   title: 'Frontend Mentor | Shortly URL shortening API Challenge',
