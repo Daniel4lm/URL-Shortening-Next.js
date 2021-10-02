@@ -13,7 +13,7 @@ const NavBar: FunctionComponent = () => {
         <nav className={styles.nav_container}>
             <div className={styles.nav_left_side}>
                 <Link href='/'>
-                    <a className={styles.nav_logo}>
+                    <a className={styles.nav_logo} aria-label='Company Logo'>
                         <svg
                             width="121"
                             height="33"
@@ -50,7 +50,7 @@ const NavBar: FunctionComponent = () => {
             <ul className={styles.nav_admin}>
                 <li>
                     <Link href='/login'>
-                        <a >Login</a>
+                        <a>Login</a>
                     </Link>
                 </li>
                 <li>

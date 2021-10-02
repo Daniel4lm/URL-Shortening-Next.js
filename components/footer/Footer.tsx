@@ -122,7 +122,7 @@ const FooterIconLink = ({ href, label, children }: any) => {
 
     return (
         <li className={styles.footerIcon}>
-            <a {...linkParams} className={styles.soc_icon}>
+            <a {...linkParams} className={styles.soc_icon} aria-label={label}>
                 {children}
             </a>
         </li>

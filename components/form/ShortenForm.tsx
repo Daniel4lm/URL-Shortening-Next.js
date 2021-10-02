@@ -20,7 +20,6 @@ const ShortenForm: FunctionComponent = () => {
     const { validateUrl } = useAppContext();
 
     useEffect(() => {
-        console.log(JSON.parse(localStorage.getItem("shortenArray") || '{}'))
         setShortenLinks(localStorage.getItem("shortenArray") ? JSON.parse(localStorage.getItem("shortenArray") || '{}') : [])
     }, []);
 
