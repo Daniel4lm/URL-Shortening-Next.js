@@ -1,9 +1,4 @@
 import { FunctionComponent } from "react";
-import Link from "next/link";
-import facebook from "@/public/images/icon-facebook.svg";
-import twitter from "@/public/images/icon-twitter.svg";
-import pinterest from "@/public/images/icon-pinterest.svg";
-import instagram from "@/public/images/icon-instagram.svg";
 import styles from "./Footer.module.css";
 
 const Footer: FunctionComponent = () => {

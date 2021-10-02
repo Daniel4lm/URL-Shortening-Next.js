@@ -20,7 +20,8 @@ export default function Seo({ metaTags }: SeoProps) {
 
                 <meta property="og:url" key="og_URL" content={metaTags.og_URL ? metaTags.og_URL : metaTags.canonical} />
                 {/* A url of an image for Facebook to use in a preview. */}
-                <meta property="og:image" key="og_image" content={metaTags.og_image ? metaTags.og_image : metaTags.image} />
+                {metaTags.og_image &&
+                    <meta property="og:image" key="og_image" content={metaTags.og_image} />}
                 <meta property="og:site_name" key="og_site_name"
                     content={metaTags.og_site_name ? metaTags.og_site_name : metaTags.title} />
                 {/* End of OpenGraph Tag */}
@@ -45,7 +46,7 @@ export default function Seo({ metaTags }: SeoProps) {
                     <meta name="twitter:image:src" key="twitter_img" content={metaTags.image} />}
 
                 {/* The URL of the canonical tags */}
-                <link rel="canonical" key="canonical" href={metaTags.canonical}/>
+                <link rel="canonical" key="canonical" href={metaTags.canonical} />
 
             </Head>
         </>

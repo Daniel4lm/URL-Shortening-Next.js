@@ -67,7 +67,7 @@ The web site contains more pages with coresponding paths(/features, /pricing, /r
 ### Useful resources
 
 - [Deploy NEXT.JS App to GitHub Pages](https://www.linkedin.com/pulse/deploy-nextjs-app-github-pages-federico-antu%C3%B1a/) - This helped me for deployment my Next.js app to Github pages. This link contains realy helpfull article about deployment next.js app to Github pages.
-- [Deploy Next.js (SSG) to GitHub Pages](https://www.youtube.com/watch?v=yRz8D_oJMWQ&t=81s) - This is an amazing YouTube article from Bruno Antunes which helped me finally to understand how to deploy Next.js (SSG) to GitHub Pages using GitHub Actions. I'd recommend this YouTube channel to anyone.
+- [Deploy Next.js (SSG) to GitHub Pages](https://www.youtube.com/watch?v=yRz8D_oJMWQ&t=81s) - This is an amazing YouTube article from Bruno Antunes which helped me finally to understand how to deploy Next.js (SSG) to GitHub Pages using GitHub Actions. I'd recommend this YouTube channel to anyone who want to deploy static app to Github pages.
 
 ## Author
 
